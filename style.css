@@ -11,9 +11,9 @@ body{
 }
 .container{
     background-color: white;
-    padding: 25px 50px;
+    padding: 20px 50px;
     border-radius: 20px ;
-    min-width: 500px;
+    min-width: 400px;
 }
 header , .quote-text , .btns {
     display: flex;
@@ -38,8 +38,28 @@ header{
 }
 .btns button{
         font-size: 14px;
-        padding: 15px 20px;
+
         border-radius: 20px;
         border: none;
+
         cursor: pointer;
+}
+.tweet button{
+    background-color: #1DA1F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 20px;
+
+}
+.new-quote button{
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+}
+.tweet button img{
+    width: 30px;
+    height: 30px;
 }
