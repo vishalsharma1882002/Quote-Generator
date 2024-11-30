@@ -14,12 +14,13 @@ body{
     padding: 20px 50px;
     border-radius: 20px ;
     min-width: 400px;
+    max-width: 500px;
 }
 header , .quote-text , .btns {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
 }
 .author p{
     text-align: end;
@@ -62,4 +63,7 @@ header{
 .tweet button img{
     width: 30px;
     height: 30px;
+}
+header{
+    margin-bottom: 30px;
 }
