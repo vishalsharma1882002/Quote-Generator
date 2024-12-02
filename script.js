@@ -3,10 +3,9 @@ let quoteText = document.querySelector(".quote-text p");
 let author = document.querySelector(".author p");
 let reload = document.querySelector(".new-quote button");
 let tweet = document.querySelector(".tweet button");
-async function getQuotes(url) {
+async function getQuotes() {
   const response = await fetch(base_url);
   const data = await response.json();
-  console.log(data);
   quoteText.innerHTML = '"' + data.content + '"';
   author.innerHTML = "- " + data.author;
 }
